@@ -1,19 +1,10 @@
-# 网上商城
-Node. js mongodb  websocket
-但是我需要的是做个网上商城
-不需要做购物车，简单的浏览商品，商品分类，然后点击一个商品可以看他的详细信息。
---------------------------
-传统的商城系统;分管理端\客户端
-查重问题
 
 ## Setup
 ```bash
-# 后端api
-cd server && npm i # yarn
+cd server && npm i
 npm run start
 
-# 前端
-cd client && npm i # yarn
+cd client && npm i
 npm run dev
 npm run dev:admin
 ```
