@@ -1,0 +1,130 @@
+@mixin clearfix {
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin scrollBar {
+  &::-webkit-scrollbar-track-piece {
+    background: #d3dce6;
+  }
+
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #99a9bf;
+    border-radius: 20px;
+  }
+}
+
+@mixin relative {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+
+/**
+* padding block
+**/
+@each $type in pa, plr, ptb, pt, pb, pl, pr {
+  $typeName:null;
+  @if $type == pa {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} { padding:  2px * $i; }
+    }
+  } @else if $type == plr {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        padding-left:  2px * $i;
+        padding-right:  2px * $i;
+      }
+    }
+  } @else if $type == ptb {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        padding-top:  2px * $i;
+        padding-bottom:  2px * $i;
+      }
+    }
+  } @else if $type == pt {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        padding-top:  2px * $i;
+      }
+    }
+  } @else if $type == pb {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        padding-bottom:  2px * $i;
+      }
+    }
+  } @else if $type == pr {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        padding-right:  2px * $i;
+      }
+    }
+  } @else if $type == pl {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        padding-left:  2px * $i;
+      }
+    }
+  }
+}
+
+
+/**
+* margin block
+**/
+@each $type in ma, mlr, mtb, mt, mb, ml, mr {
+  $typeName:null;
+  @if $type == ma {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} { margin:  2px * $i; }
+    }
+  } @else if $type == mlr {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        margin-left:  2px * $i;
+        margin-right:  2px * $i;
+      }
+    }
+  } @else if $type == mtb {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        margin-top:  2px * $i;
+        margin-bottom:  2px * $i;
+      }
+    }
+  } @else if $type == mt {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        margin-top:  2px * $i;
+      }
+    }
+  } @else if $type == mb {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        margin-bottom:  2px * $i;
+      }
+    }
+  } @else if $type == mr {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        margin-right:  2px * $i;
+      }
+    }
+  } @else if $type == ml {
+    @for $i from 2 through 30 {
+      .#{$type}-#{2*$i} {
+        margin-left:  2px * $i;
+      }
+    }
+  }
+}
