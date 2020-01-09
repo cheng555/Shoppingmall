@@ -90,7 +90,7 @@ describe('API test', function() {
       .expect(200, done)
   })
  
-  it('respond with json adn code 200', function(done) {
+  it('search goods api testing', function(done) {
     request(fixed_head)
       .get('/api/mall/searchGoods')
       .set('Accept', 'application/json')
