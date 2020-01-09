@@ -88,7 +88,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  it('respond with json adn code 200', function(done) {
+  it('send commenet api testing', function(done) {
     request(fixed_head)
       .post('/api/mall/sendComment')
       .set('Accept', 'application/json')
