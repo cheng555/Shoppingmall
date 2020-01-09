@@ -62,3 +62,4 @@ English version
 2. Enter the client / server directory and execute NPM install
 3. Enter the server directory to execute NPM run start (this is the start API interface)
 4. Enter the client directory to execute NPM run dev (this is the C-side project)
+5. Also execute NPM run dev: admin in the client directory (start the management background)
