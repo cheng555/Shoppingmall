@@ -29,6 +29,7 @@ npm run dev:admin
   - ...
 
 ## 部署说明
+Chinese version
 1. 环境要求: 
   - MongoDB环境启动27017；检查：localhost:27017是否能访问通
 2. 进入client/server目录分布执行npm install
