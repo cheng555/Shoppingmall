@@ -9,7 +9,7 @@ const mongoose = require('mongoose')
 const configs = require('./config')
 const app = new Express()
 
-// mongose数据库连接
+// mongose Database connection
 mongoose.connect(configs.mongodb.url, { useNewUrlParser: true, useUnifiedTopology: true })
 const db = mongoose.connection
 db.on('error', e => {
