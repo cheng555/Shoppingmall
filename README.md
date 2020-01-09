@@ -57,3 +57,5 @@ Chinese version
 6. 访问localhost:8080前台地址；localhost:8081后台管理地址
 
 English version
+1. Environmental requirements:
+-Mongodb environment starts 27017; check whether localhost: 27017 can access 
