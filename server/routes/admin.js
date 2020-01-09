@@ -30,7 +30,7 @@ router.get('/api/admin/searchUser', userAdmin.searchUser)
 
 
 
-//查询未回复信息
+//Query unresponsive information
 router.get('/api/admin/noReplyMsg', msgAdmin.getNoReplyMsg)
 
 //查询已回复信息
