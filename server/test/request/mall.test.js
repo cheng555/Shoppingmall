@@ -32,7 +32,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  it('respond with json adn code 200', function(done) {
+  it('ask goods messages api testing', function(done) {
     request(fixed_head)
       .post('/api/mall/askGoodsMsg')
       .set('Accept', 'application/json')
