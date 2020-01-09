@@ -48,13 +48,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  // it('respond with json adn code 200', function(done) {
-  //   request(fixed_head)
-  //     .get('/api/mall/getOrderByState')
-  //     .set('Accept', 'application/json')
-  //     .expect('Content-Type', /json/)
-  //     .expect(200, done)
-  // })
+ 
 
   it('delete oeder api testing', function(done) {
     request(fixed_head)
@@ -95,13 +89,7 @@ describe('API test', function() {
       .expect('Content-Type', /json/)
       .expect(200, done)
   })
-  // it('respond with json adn code 200', function(done) {
-  //   request(fixed_head)
-  //     .get('api/mall/getGoodsComment')
-  //     .set('Accept', 'application/json')
-  //     .expect('Content-Type', /json/)
-  //     .expect(200, done)
-  // })
+ 
   it('respond with json adn code 200', function(done) {
     request(fixed_head)
       .get('/api/mall/searchGoods')
