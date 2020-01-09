@@ -15,7 +15,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  it('respond with json adn code 200', function(done) {
+  it('login api testing', function(done) {
     request(fixed_head)
       .post('/api/admin/login')
       .set('Accept', 'application/json')
