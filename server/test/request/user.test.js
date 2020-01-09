@@ -23,7 +23,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  it('respond with json adn code 200', function(done) {
+  it('update user data api testing', function(done) {
     request(fixed_head)
       .post('/api/user/updateUserData')
       .set('Accept', 'application/json')
