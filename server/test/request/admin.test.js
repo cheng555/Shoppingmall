@@ -47,7 +47,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  it('respond with json adn code 200', function(done) {
+  it('no reply message api testing', function(done) {
     request(fixed_head)
       .get('/api/admin/noReplyMsg')
       .set('Accept', 'application/json')
