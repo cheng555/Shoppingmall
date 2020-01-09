@@ -29,6 +29,13 @@ Chinese version
   - websocket
   - ...
 
+1. Front end C
+  - Vue
+  - Vue-route
+  - Vuex
+  - element-ui
+  - webpack
+  - ...
 ## 部署说明
 Chinese version
 1. 环境要求: 
