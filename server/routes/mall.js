@@ -10,7 +10,7 @@ router.get('/api/mall/getGoodsInfo', goods.getGoodsInfo);
 //获得商品详情页问答区数据 Get the question and answer area data of the commodity details page
 router.get('/api/mall/getGoodsMsg', goods.getGoodsMsg);
 
-//提问商品
+//Find products
 router.post('/api/mall/askGoodsMsg', goods.askGoodsMsg);
 
 //加入购物车或立即购买  add the shopping cart or buy now
