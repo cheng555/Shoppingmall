@@ -36,6 +36,16 @@ Chinese version
   - element-ui
   - webpack
   - ...
+
+  2. Admin end
+  - express
+  - node
+  - jsonwebtoken
+  - socket.io
+  - nodemon
+  - mongoose
+  - websocket
+  - ...
 ## 部署说明
 Chinese version
 1. 环境要求: 
