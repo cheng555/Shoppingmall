@@ -24,7 +24,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  it('respond with json adn code 200', function(done) {
+  it('get ggods messages api testing', function(done) {
     request(fixed_head)
       .get('/api/mall/getGoodsMsg')
       .set('Accept', 'application/json')
