@@ -56,7 +56,7 @@ describe('API test', function() {
   //     .expect(200, done)
   // })
 
-  it('respond with json adn code 200', function(done) {
+  it('delete oeder api testing', function(done) {
     request(fixed_head)
       .delete('/api/mall/deleteOrder')
       .set('Accept', 'application/json')
