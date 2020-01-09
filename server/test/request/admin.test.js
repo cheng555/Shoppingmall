@@ -71,7 +71,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  it('order api testing', function(done) {
+  it('orders api testing', function(done) {
     request(fixed_head)
       .get('/api/admin/orders')
       .set('Accept', 'application/json')
