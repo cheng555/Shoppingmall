@@ -55,7 +55,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  it('respond with json adn code 200', function(done) {
+  it('replied message aoi testing', function(done) {
     request(fixed_head)
       .get('/api/admin/repliedMsg')
       .set('Accept', 'application/json')
