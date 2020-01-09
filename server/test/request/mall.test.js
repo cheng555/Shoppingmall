@@ -8,7 +8,7 @@ describe('API test', function() {
     console.info('API test start')
   })
   
-  it('get goods by type api testing', function(done) {
+  it('get goods by type api', function(done) {
     request(fixed_head)
       .get('/api/mall/getGoodsByType')
       .set('Accept', 'application/json')
@@ -16,7 +16,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  it('respond with json adn code 200', function(done) {
+  it('get goods info api testing', function(done) {
     request(fixed_head)
       .get('/api/mall/getGoodsInfo')
       .set('Accept', 'application/json')
