@@ -59,3 +59,4 @@ Chinese version
 English version
 1. Environmental requirements:
 -Mongodb environment starts 27017; check whether localhost: 27017 can access 
+2. Enter the client / server directory and execute NPM install
