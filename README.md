@@ -11,6 +11,7 @@ npm run dev:admin
 
 
 ## 技术栈
+Chinese version
 1. 前台C端
   - Vue
   - Vue-route
