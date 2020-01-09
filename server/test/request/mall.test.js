@@ -64,7 +64,7 @@ describe('API test', function() {
       .expect(200, done)
   })
 
-  it('respond with json adn code 200', function(done) {
+  it('pay api testing', function(done) {
     request(fixed_head)
       .get('/api/mall/pay')
       .set('Accept', 'application/json')
