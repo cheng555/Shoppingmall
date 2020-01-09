@@ -64,4 +64,4 @@ English version
 3. Enter the server directory to execute NPM run start (this is the start API interface)
 4. Enter the client directory to execute NPM run dev (this is the C-side project)
 5. Also execute NPM run dev: admin in the client directory (start the management background)
-6. Access localhost: 8080 foreground address; localhost: 8081 background management address 
+6. Access localhost: 8080 foreground address; localhost: 8081 background management address 1
