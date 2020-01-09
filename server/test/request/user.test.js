@@ -7,7 +7,7 @@ describe('API test', function() {
   beforeEach(() => {
     console.info('API test start')
   })
-  it('respond with json adn code 200', function(done) {
+  it('sign up api testing', function(done) {
     request(fixed_head)
       .post('/api/user/signup')
       .set('Accept', 'application/json')
