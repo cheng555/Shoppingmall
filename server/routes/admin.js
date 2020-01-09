@@ -33,7 +33,7 @@ router.get('/api/admin/searchUser', userAdmin.searchUser)
 //Query unresponsive information
 router.get('/api/admin/noReplyMsg', msgAdmin.getNoReplyMsg)
 
-//查询已回复信息
+//Query replied information
 router.get('/api/admin/repliedMsg', msgAdmin.getRepliedMsg)
 
 //回复信息 reply
