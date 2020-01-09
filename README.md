@@ -55,3 +55,5 @@ Chinese version
 4. 进入client目录执行npm run dev(这是启动C端项目)
 5. 同样在client目录执行npm run dev:admin(启动管理后台)
 6. 访问localhost:8080前台地址；localhost:8081后台管理地址
+
+English version
